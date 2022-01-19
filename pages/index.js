@@ -1,5 +1,5 @@
 import {Titulo} from "../components/main.js"
-import {principal} from "../components/main.js"
+import {Principal} from "../components/main.js"
 
 export default function Home(){
   return (
@@ -8,7 +8,7 @@ export default function Home(){
       <h2>
         Viva Santana!
       </h2>
-      <principal />
+      <Principal />
     </div>
   )
 }
