@@ -8,7 +8,7 @@ const Home = () => {
                 Viva Santana!
             </h2>
             <title titulo={"Tarefa de PWeb Receita-Next-01"}/>
-            <main/>
+            <main />
         </div>    
     )
 }
