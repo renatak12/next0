@@ -1,4 +1,4 @@
-const title= ({titulo}) => {
+const title = ({titulo}) => {
     return (
         <h1> {titulo} </h1>
     )
