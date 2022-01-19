@@ -1,13 +1,14 @@
-import {title} from "../components/title.js"
-import {main} from "../components/main.js"
+import {Titulo} from "../components/main.js"
 
-const Home = () => {
-    return (
-        <div>
-            <title titulo="Tarefa de PWeb Receita-Next-01"/>
-            <main />
-        </div>    
-    )
+export default function Home(){
+  return (
+    <div>
+
+      <h2>
+        Viva Santana!
+      </h2>
+      <Titulo titulo="Tarefa de PWeb Receita-Next-01"/>
+      
+    </div>
+  )
 }
-
-export default Home
