@@ -1,9 +1,9 @@
-const main = () => {
+export const Titulo = ({titulo}) => {
     return (
-        <p>
-            Cana é bom demais!! 
-        </p>
+        <div>
+            <h1>
+                {titulo}
+            </h1>
+        </div>
     )
 }
-
-export {main}
