@@ -8,7 +8,7 @@ export const Titulo = ({titulo}) => {
     )
 }
 
-export function principal(){
+export function Principal(){
     return (
         <div>
             <h2>
