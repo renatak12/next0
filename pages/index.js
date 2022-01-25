@@ -11,7 +11,6 @@ export default function Home(){
         <Link href="/receita2/about">
           <a> Sobre nós </a>
         </Link>
-      </nav>
       <Titulo titulo="Tarefa de PWeb Receita-Next-01"/>
       <h2>
         Viva Santana!
