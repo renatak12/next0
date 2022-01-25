@@ -8,7 +8,7 @@ export default function Home(){
         <Link href="/receita2/novaPagina">
           <a> Nova Pagina </a>
         </Link>
-        <Link href="/paginasInternas/about">
+        <Link href="/receita2/about">
           <a> Sobre nós </a>
         </Link>
       </nav>
