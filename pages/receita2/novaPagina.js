@@ -5,7 +5,7 @@ export default function Principal(){
    return (
       <div>
          <h1>Nova Página</h1>
-         <MariaPrea texto="Texto qualquer"/>
+         <MariaPrea texto="Morreu Maria Preá"/>
          <Link href="/">
             <a>Voltar</a>
          </Link>
