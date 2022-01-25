@@ -14,5 +14,6 @@ export default function Principal(){
 }
 
 export const MariaPrea = ({texto}) => {
+   
   return <h2>{texto}</h2>
 }
