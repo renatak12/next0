@@ -20,16 +20,6 @@ export default function Home(){
                 }
             `}
 
-                h1{
-                    font-family: 'Lato','sans-serif';
-                    color: #0489B1;
-                    font-weigth: bold;
-                    font-size: 25px;
-                    text-align: center;
-                    font-style: italic;
-                }
-            `}
-
         </style>
 
         <nav>
@@ -39,13 +29,12 @@ export default function Home(){
         <Link href="/receita2/about">
           <a> Sobre nós </a>
         </Link>
-        </nav>
-
         <Titulo titulo="Tarefa de PWeb Receita-Next-02"/>
         <h2>
           Viva Santana!
         </h2>
         <Titulo2 />
+        </nav>
     </div>
   )
 }
