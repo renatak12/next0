@@ -19,6 +19,17 @@ export default function Home(){
                     color: #0489B1;
                 }
             `}
+
+                h1{
+                    font-family: 'Lato','sans-serif';
+                    color: #0489B1;
+                    font-weigth: bold;
+                    font-size: 25px;
+                    text-align: center;
+                    font-style: italic;
+                }
+            `}
+
         </style>
 
         <nav>
