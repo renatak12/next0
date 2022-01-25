@@ -15,8 +15,10 @@ export default function Home(){
                     justify-content: center;
                 }
                 
-                a:hover {
-                    color: #0489B1;
+                a {
+                    color: blue;
+                    font-size: 20px;
+                    padding: 5px;
                 }
             `}
 
@@ -29,12 +31,12 @@ export default function Home(){
         <Link href="/receita2/about">
           <a> Sobre nós </a>
         </Link>
+        </nav>
         <Titulo titulo="Tarefa de PWeb Receita-Next-02"/>
         <h2>
           Viva Santana!
         </h2>
         <Titulo2 />
-        </nav>
     </div>
   )
 }
