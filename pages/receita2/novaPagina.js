@@ -5,8 +5,14 @@ export default function Principal(){
    return (
       <div>
          <h1>Nova Página</h1>
-         <MariaPrea/>
-         <Link href='/'><a>Voltar</a></Link>
+         <MariaPrea texto="Texto qualquer"/>
+         <Link href="/">
+            <a>Voltar</a>
+         </Link>
       </div>
    )
+}
+
+export const MariaPrea = ({texto}) => {
+  return <h2>{texto}</h2>
 }
