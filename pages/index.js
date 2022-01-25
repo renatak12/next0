@@ -1,5 +1,5 @@
-import {Titulo} from "../components/main.js"
-import {Principal} from "../components/main.js"
+import {Titulo} from "../components/Titulo.js"
+import {Titulo2} from "../components/Titulo2.js"
 import Link from 'next/link'
 
 export default function Home(){
@@ -11,11 +11,11 @@ export default function Home(){
         <Link href="/receita2/about">
           <a> Sobre nós </a>
         </Link>
-      <Titulo titulo="Tarefa de PWeb Receita-Next-01"/>
+      <Titulo titulo="Tarefa de PWeb Receita-Next-02"/>
       <h2>
         Viva Santana!
       </h2>
-      <Principal />
+      <Titulo2 />
     </div>
   )
 }
