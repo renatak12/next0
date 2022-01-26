@@ -28,7 +28,7 @@ export default function Home(){
         <Link href="/receita2/novaPagina">
           <a> Nova Pagina </a>
         </Link>
-        <Link href="/1952">
+        <Link href="/bagdad">
           <a> Filmes </a>
         </Link>
         <Link href="/receita2/about">
