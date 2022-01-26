@@ -42,7 +42,7 @@ export default function Movies({data}){
         )}               
       </div>
 
-      <Link href="/2009">
+      <Link href="/">
       <a>Voltar</a>
       </Link>
     </div>
