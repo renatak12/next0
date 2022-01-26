@@ -36,13 +36,13 @@ export default function Movies({data}){
       <div id="map">
         {data.Search.map( (m) => 
           <div id="content">
-            Titulo: {m.Title} -- Ano: {m.Year} -- 
+            Titulo: {m.Title} -/- Ano: {m.Year} -/- 
             <img src={m.Poster}></img>
           </div>  
         )}               
       </div>
 
-      <Link href="/">
+      <Link href="/2009">
       <a>Voltar</a>
       </Link>
     </div>
