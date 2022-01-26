@@ -9,7 +9,7 @@ export default function Movies({data}){
           text-decoration: none;
           display: flex;
           justify-content: center;
-          padding-top: 3%;
+          padding-top: 1%;
         }
         img {
           width: 150px;
@@ -19,7 +19,7 @@ export default function Movies({data}){
           justify-content: center;
         }
         label {
-          margin-left: 60%;
+          margin-left: 40%;
         }
         #content {
           display: flex;
