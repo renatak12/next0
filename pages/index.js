@@ -1,5 +1,3 @@
-import {Titulo} from "/receita1/titulo.js"
-import {Titulo2} from "/receita1/titulo2.js"
 import Link from 'next/link'
 
 export default function Home(){
@@ -25,21 +23,12 @@ export default function Home(){
         </style>
 
         <nav>
-        <Link href="/receita2/novaPagina">
-          <a> Nova Pagina </a>
-        </Link>
-        //<Link href="/receita3/bagdad">
-         // <a> Filmes </a>
-        //</Link>
-        <Link href="/receita2/about">
-          <a> Sobre nós </a>
-        </Link>
+        
+                <Link id='receita1' href='/pages/receita1'><a>Receita 1</a></Link>
+                <Link id='receita2' href='/pages/receita2'><a>Receita 2</a></Link>
+                <Link id='receita3' href='/pages/receita3/bagdad'><a>Receita 3</a></Link>
         </nav>
-        <Titulo titulo="Tarefa de PWeb Receitas-Next"/>
-        <h2>
-          Viva Santana!
-        </h2>
-        <Titulo2 />
+        
     </div>
   )
 }
