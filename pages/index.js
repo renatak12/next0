@@ -1,5 +1,5 @@
-import {Titulo} from "../components/Titulo.js"
-import {Titulo2} from "../components/Titulo2.js"
+import {Titulo} from "../receita1/Titulo.js"
+import {Titulo2} from "../receita1/Titulo2.js"
 import Link from 'next/link'
 
 export default function Home(){
@@ -32,7 +32,7 @@ export default function Home(){
           <a> Sobre nós </a>
         </Link>
         </nav>
-        <Titulo titulo="Tarefa de PWeb Receita-Next-02"/>
+        <Titulo titulo="Tarefa de PWeb Receitas-Next"/>
         <h2>
           Viva Santana!
         </h2>
