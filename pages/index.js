@@ -1,5 +1,5 @@
-import {Titulo} from "../receita1/Titulo.js"
-import {Titulo2} from "../receita1/Titulo2.js"
+import {Titulo} from "../receita1/titulo.js"
+import {Titulo2} from "../receita1/titulo2.js"
 import Link from 'next/link'
 
 export default function Home(){
