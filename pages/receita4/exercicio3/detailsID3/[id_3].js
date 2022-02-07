@@ -1,7 +1,7 @@
 export default function MovieID_3({data}){
   return (
     <div id="content">
-      Titulo: {data.Title} -- Ano: {data.Year} -- 
+      Titulo: {data.Title} -/- Ano: {data.Year} -/- 
       <img src={data.Poster}></img>
     </div>  
   )    
