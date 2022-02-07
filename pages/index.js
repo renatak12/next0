@@ -29,6 +29,7 @@ export default function Home(){
         <Link href="/receita3/bagdad"><a> Filmes </a></Link>
         <Link href="/receita2/about"><a> Sobre nós </a></Link>
         <Link href="/receita4/exercicio1/bagdad"><a> Receita4 </a></Link>
+        <Link href="/receita4/exercicio3/bagdad"><a> Receita4 </a></Link>
         </nav>
         <Titulo titulo="Tarefa de PWeb Receitas-Next"/>
         <h2>
