@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 export default function Movies(){
     const router = useRouter()
     const movie = router.query.movies
-    const {data, error} = useSWR(`https://www.omdbapi.com/?apikey=86b9eaa3&s=2017`, fetcher)    
+    const {data, error} = useSWR(`http://www.omdbapi.com/?apikey=86b9eaa3&s=bagdad`, fetcher)    
 
     if (error) return <div>falha na requisição...</div>
     if (!data) return <div>carregando...</div>
