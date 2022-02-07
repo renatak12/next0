@@ -8,7 +8,7 @@ export default function MovieID_3({data}){
 }
 
 export async function getServerSideProps(context){
-  const res = await fetch(`/http://www.omdbapi.com/?apikey=86b9eaa3&s=${context.params.id3}`)
+  const res = await fetch(`/http://www.omdbapi.com/?apikey=86b9eaa3&s=${context.params.id_3}`)
   const data = await res.json()
   return {
     props: {
