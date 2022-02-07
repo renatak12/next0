@@ -31,6 +31,7 @@ export default function Home(){
         <Link href="/receita4/exercicio1/2017"><a> Receita4_1 </a></Link>
         <Link href="/receita4/exercicio3/2010"><a> Receita4_3 </a></Link>
         <Link href="/receita5/exercicio1/2010"><a> Receita5_1 </a></Link>
+        <Link href="/receita5/exercicio2/2010"><a> Receita5_2 </a></Link>
         </nav>
         <Titulo titulo="Tarefa de PWeb Receitas-Next"/>
         <h2>
