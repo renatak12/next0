@@ -28,7 +28,7 @@ export default function Movies3(){
     return (
 
         <div>
-            <TheLink url={url} link={'https://www.omdbapi.com/?apikey=a85a78d&s=2010'} handler={onClickHandler} />
+            <TheLink url={url} link={'https://www.omdbapi.com/?apikey=86b9eaa3&s=2010'} handler={onClickHandler} />
             <TheMovies data={data}/>
         </div>
 
