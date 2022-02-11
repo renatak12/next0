@@ -54,7 +54,7 @@ export function TheMovies({data,show}){
 export function TheLink({url, handler}){
   return (
     <div>
-      <a href="/receita6/movies6.js" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
+      <a href="/receita6/movies.js" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
     </div>
   )
 }
