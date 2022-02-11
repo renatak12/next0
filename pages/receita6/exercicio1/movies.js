@@ -45,7 +45,7 @@ export function TheLink({url, handler}){
     )
 }
 
-export default function Movies6(){
+export default function Movies(){
 
     const [state, setState] = useState({url:'', titleSearchString:''})
 
