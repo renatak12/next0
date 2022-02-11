@@ -1,7 +1,7 @@
 import useSWR from 'swr'
 import {useState} from 'react'
 
-export default function Movies6(){
+export default function Movies33(){
   const [state, setState] = useState({url:'', titleSearchString:'', yearSearchString:''})
 
   const {data, error} = useSWR(state.url, async (u) => {
@@ -54,7 +54,7 @@ export function TheMovies({data,show}){
 export function TheLink({url, handler}){
   return (
     <div>
-      <a href="/receita6/movies.js" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
+      <a href="/receita6/movies6.js" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
     </div>
   )
 }
