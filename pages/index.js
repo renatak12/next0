@@ -34,7 +34,6 @@ export default function Home(){
         <Link href="/receita5/exercicio2/movies"><a> Receita5_2 </a></Link>
         <Link href="/receita5/exercicio3/movies"><a> Receita5_3 </a></Link>
         <Link href="/receita5/exercicio5/movies"><a> Receita5_5 </a></Link>
-        <Link href="/receita6/movies6"><a> Receita6 </a></Link>
         <Link href="/receita6/exercicio1/movies33"><a> Receita6_1 </a></Link>
         <Link href="/receita6/exercicio2/movies33"><a> Receita6_2 </a></Link>
         <Link href="/receita6/exercicio3/movies33"><a> Receita6_3 </a></Link>
