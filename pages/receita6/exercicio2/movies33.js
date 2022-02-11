@@ -17,7 +17,7 @@ export function TheForm({filtro, url, acao}){
                 }
                 .form-search-movie input {
                     padding: 5px;
-                    border-radius: 5px;
+                    border-radius: 2px;
                     border: 1px solid #000;
                     outline: none;
                 }
@@ -26,7 +26,7 @@ export function TheForm({filtro, url, acao}){
                     color: #fff;
                     padding: 5px;
                     border: none;
-                    border-radius: 5px;
+                    border-radius: 2px;
                     margin-bottom: 10px;
                     cursor: pointer;
                 }
@@ -35,7 +35,7 @@ export function TheForm({filtro, url, acao}){
             <form className='form-search-movie' onSubmit={handleSubmit(acao)}>
                 <label htmlFor="titleSearchString">{filtro}</label>
                 <input id="titleSearchString" {...register("titleSearchString", { required: true, minLength: 3})} type="text" autoComplete="true"/>
-                <button type='submit'>{url === '' ? 'Mostrar' : 'Ocultar'}</button>
+                <button type='submit'>{url === '' ? 'Pesquisar' : 'Voltar'}</button>
                 {errors.titleSearchString && <span>Insira no mínimo três caracteres   </span>}
             </form>
         </div>
