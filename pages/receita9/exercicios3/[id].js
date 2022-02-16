@@ -1,4 +1,3 @@
-
 export default function TheMovie({data}){
 
     if(data === undefined) return <div>Carregando...</div>
