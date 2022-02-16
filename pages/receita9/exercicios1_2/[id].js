@@ -1,10 +1,9 @@
-import useSWR from "swr"
 import { useRouter } from 'next/router'
 
 
 export default function TheAnimes({data}){
-    
 
+   
     const router = useRouter()
 
     if (router.isFallback) {
@@ -66,11 +65,11 @@ export async function getStaticPaths(){
 
         paths:[
 
-            {params: {id: "28765"}},
-
             {params: {id: "16870"}},
 
             {params: {id: "34566"}},
+
+            {params: {id: "28765"}},
 
         ],
 
