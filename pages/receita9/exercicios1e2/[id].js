@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 
-export default function TheMovie({data}){
+export default function TheAnimes({data}){
 
     const router = useRouter()
 
@@ -29,7 +29,7 @@ export default function TheMovie({data}){
                     font-family: 'Lato', sans-serif;
                     max-width: 500px;
                     border: 1px solid #000;
-                    border-radius: 6px;
+                    border-radius: 12px;
                 }
                 ul {
                     list-style: none;
@@ -63,11 +63,11 @@ export async function getStaticPaths(){
 
         paths:[
 
-            {params: {id: "tt4154664"}},
+            {params: {id: "28765"}},
 
-            {params: {id: "tt3067038"}},
+            {params: {id: "16870"}},
 
-            {params: {id: "tt0458339"}},
+            {params: {id: "34566"}},
 
         ],
 
@@ -80,7 +80,7 @@ export async function getStaticPaths(){
 export async function getStaticProps({ params }) {
 
     console.log(params)
-    const res = await fetch(`https://www.omdbapi.com/?apikey=86b9eaa3&s=${params.id}`)
+    const res = await fetch(`https://api.jikan.moe/v4/anime/${params.id}`)
 
     const data = await res.json();
 
