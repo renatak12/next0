@@ -1,4 +1,4 @@
-import MessageWarning from "../../receita9/Warning/Warning"
+import MessageWarning from "../receita9/warning/warning"
 
 export default function TheMovie({data}){
 
