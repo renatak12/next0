@@ -81,7 +81,7 @@ export async function getStaticPaths(){
 
 export async function getStaticProps({ params }) {
 
-    console.log(params)
+    //console.log(params)
     const res = await fetch(`https://api.jikan.moe/v4/anime/${params.id}`)
 
     const data = await res.json();
