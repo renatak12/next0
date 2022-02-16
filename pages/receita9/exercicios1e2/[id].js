@@ -1,9 +1,7 @@
 import {useRouter} from 'next/router'
 
-
 export default function TheMovies({data}){
 
-   
     const router = useRouter()
 
     if (router.isFallback) {
