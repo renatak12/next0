@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 
-export default function TheMovies({data}){
+export default function TheMovie({data}){
 
     const router = useRouter()
 
